@@ -11,6 +11,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'alfredodeza/pytest.vim'
 Plug 'weynhamz/vim-plugin-minibufexpl'
+Plug 'vim-airline/vim-airline'
+
 
 call plug#end()
 
