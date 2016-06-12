@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/root/.oh-my-zsh
+export ZSH=~/.config/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git httpie pep8 python)
+# plugins=(pep8 python)
 
 # User configuration
 
@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 alias v="nvim"
 alias s="sudo"
 alias l="ls -lha"
+alias g="git"
 
 aenv() {
   echo "activating $1"
