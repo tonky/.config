@@ -12,6 +12,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'alfredodeza/pytest.vim'
 Plug 'weynhamz/vim-plugin-minibufexpl'
 Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
 
 
 call plug#end()
